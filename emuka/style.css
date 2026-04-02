@@ -393,8 +393,12 @@ main [id] {
     height: 250px;
 }
 
-#transport-story .story-media img {
-    height: 640px;
+.story-card--text .story-content {
+    max-width: 900px;
+}
+
+#phone-theft-story .story-media img {
+    height: 420px;
 }
 
 .story-card--feature .story-content,
@@ -551,7 +555,7 @@ main [id] {
         height: 220px;
     }
 
-    #transport-story .story-media img {
+    #phone-theft-story .story-media img {
         height: 260px;
     }
 
@@ -640,7 +644,7 @@ main [id] {
         height: 180px;
     }
 
-    #transport-story .story-media img {
+    #phone-theft-story .story-media img {
         height: 210px;
     }
 
