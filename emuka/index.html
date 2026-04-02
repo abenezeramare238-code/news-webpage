@@ -1,259 +1,542 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My News | Hawassa Front Page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="page-shell">
-        <header class="site-header">
-            <a class="brand" href="#">
-                <span class="brand-mark">MN</span>
-                <div>
-                    <p class="eyebrow">Campus And Community Desk</p>
-                    <h1>My News</h1>
-                </div>
-            </a>
+      <header class="site-header">
+        <a class="brand" href="#">
+          <span class="brand-mark">MN</span>
+          <div>
+            <p class="eyebrow">Campus And Community Desk</p>
+            <h1>My News</h1>
+          </div>
+        </a>
 
-            <nav class="site-nav">
-                <a href="#top-stories">Top Stories</a>
-                <a href="#lakeside-story">Lakeside</a>
-                <a href="#sports-story">Sports</a>
-                <a href="#phone-theft-story">Safety</a>
-            </nav>
-        </header>
+        <nav class="site-nav">
+          <a href="#top-stories">Top Stories</a>
+          <a href="#goods-price-story">Prices</a>
+          <a href="#online-exam-story">Exams</a>
+          <a href="#tariff-story">Transport</a>
+          <a href="#lakeside-story">Lakeside</a>
+          <a href="#sports-story">Sports</a>
+          <a href="#phone-theft-story">Safety</a>
+        </nav>
+      </header>
 
-        <main>
-            <section class="hero">
-                <div class="hero-copy">
-                    <p class="eyebrow">April 2026 Community Edition</p>
-                    <h2>Three local stories shaping development and daily life in Hawassa.</h2>
-                    <p class="hero-text">
-                        This front page tracks a major lakeside project, youth sports dreams rising
-                        from Korem Mada, and growing concern over mobile phone theft across the city.
-                    </p>
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">April 2026 Community Edition</p>
+            <h2>Six local stories shaping daily life in Hawassa and Sidama.</h2>
+            <p class="hero-text">
+              The latest front page now leads with rising food prices, online
+              national exam preparations, and transport tariff pressure, while
+              keeping earlier reporting on lakeside development, youth sports,
+              and public safety in view.
+            </p>
 
-                    <div class="hero-actions">
-                        <a class="button button-primary" href="#top-stories">Read The Stories</a>
-                        <a class="button button-secondary" href="#latest-brief">Quick Brief</a>
-                    </div>
-                </div>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#top-stories"
+                >Read The Stories</a
+              >
+              <a class="button button-secondary" href="#latest-brief"
+                >Quick Brief</a
+              >
+            </div>
+          </div>
 
-                <aside class="brief-panel" id="latest-brief">
-                    <p class="brief-label">Quick Brief</p>
-                    <ul class="brief-list">
-                        <li>
-                            <span>Lakeside</span>
-                            Hawassa plans a phased lakeside project with public spaces, walking paths,
-                            and tourism-focused improvements.
-                        </li>
-                        <li>
-                            <span>Sports</span>
-                            Community coaches and parents say youth talent is growing faster than the
-                            city's available sports facilities.
-                        </li>
-                        <li>
-                            <span>Safety</span>
-                            Police report repeated phone theft cases as thieves shift from pickpocketing
-                            to dorm and motorbike snatching tactics.
-                        </li>
-                    </ul>
-                </aside>
-            </section>
+          <aside class="brief-panel" id="latest-brief">
+            <p class="brief-label">Quick Brief</p>
+            <ul class="brief-list">
+              <li>
+                <span>Prices</span>
+                Hawassa households say the cost of essentials, especially
+                cooking oil, is rising faster than wages and squeezing family
+                budgets.
+              </li>
+              <li>
+                <span>Exams</span>
+                Sidama education officials are preparing thousands of Grade 12
+                students for online national exams while working around power
+                and connectivity problems.
+              </li>
+              <li>
+                <span>Transport</span>
+                Drivers and passengers say new tariffs are adding another layer
+                of pressure to an already expensive daily commute.
+              </li>
+            </ul>
+          </aside>
+        </section>
 
-            <section class="section-heading" id="top-stories">
-                <div>
-                    <p class="section-kicker">Front Page</p>
-                    <h2>Latest reports from Hawassa City</h2>
-                </div>
-                <p class="section-note">
-                    Development, youth opportunity, and public safety are all competing for attention
-                    across Hawassa this month.
+        <section class="section-heading" id="top-stories">
+          <div>
+            <p class="section-kicker">Front Page</p>
+            <h2>Latest reports from Hawassa City and Sidama</h2>
+          </div>
+          <p class="section-note">
+            Cost of living, education, transport, development, youth
+            opportunity, and public safety are all competing for attention this
+            month.
+          </p>
+        </section>
+
+        <section class="stories-grid">
+          <article
+            class="story-card story-card--feature"
+            id="goods-price-story"
+          >
+            <div class="story-media story-media--single">
+              <img
+                src="image/goods-prices.jpg"
+                alt="Illustration showing rising food prices and the cost of groceries"
+              />
+            </div>
+
+            <div class="story-content">
+              <div class="story-meta">
+                <span class="story-tag">Economy</span>
+                <span class="story-read">Cost of Living</span>
+              </div>
+
+              <h3>
+                Rising Food Prices Deepen Cost-of-Living Pressure in Hawassa
+              </h3>
+              <p class="story-lead">
+                Residents say the price of basic goods keeps climbing, leaving
+                many families struggling to cover everyday household needs.
+              </p>
+
+              <div class="story-copy">
+                <p>
+                  Residents of Hawassa say they are under growing financial
+                  pressure as the cost of basic goods continues to rise, making
+                  it harder for families to afford essential items.
                 </p>
-            </section>
+                <p>
+                  One resident, Ms. Genet, said the increase is especially
+                  painful for low- and middle-income households that already
+                  budget carefully from month to month.
+                </p>
+                <p>
+                  She pointed to cooking oil as one clear example. A five-liter
+                  bottle that once sold for about 1,300 to 1,600 birr now costs
+                  roughly 2,050 to 2,500 birr, forcing her family to cut
+                  consumption and ration supplies more strictly.
+                </p>
+                <p>
+                  Traders say the surge is tied to higher fuel prices and
+                  ongoing supply disruptions. They argue that transport costs
+                  have risen sharply, and those extra expenses are being passed
+                  on to consumers in the market.
+                </p>
+                <p>
+                  Economist and Hawassa University teacher Mr. Henok Sisay said
+                  both global and domestic pressures are feeding the inflation.
+                  He cited the Russia-Ukraine war, which disrupted international
+                  supply chains and raised import costs, along with the economic
+                  effects of conflict in northern Ethiopia, which reduced local
+                  production and strained foreign currency reserves.
+                </p>
+                <p>
+                  He added that inflation has slowed compared with earlier
+                  highs, dropping from about 36 percent to around 9 percent,
+                  partly because of tighter monetary policies. Even so,
+                  households say the lower inflation rate has not yet brought
+                  real relief at the market level.
+                </p>
+                <p>
+                  As prices remain elevated, many families in Hawassa say they
+                  are still being forced to buy less, switch to cheaper goods,
+                  and delay other household expenses just to keep food on the
+                  table.
+                </p>
+              </div>
+            </div>
+          </article>
 
-            <section class="stories-grid">
-                <article class="story-card story-card--feature" id="lakeside-story">
-                    <div class="story-media story-media--split">
-                        <img src="image/lakeside-render.jpg" alt="Concept rendering of the planned Hawassa lakeside development">
-                        <img src="image/lakeside-plan.jpg" alt="Design plan for the Hawassa lakeside development project">
-                    </div>
+          <article class="story-card story-card--wide" id="online-exam-story">
+            <div class="story-media story-media--triple">
+              <img
+                src="image/online-exam-hall.jpg"
+                alt="Students sitting for an exam in a large hall"
+              />
+              <img
+                src="image/online-exam-classroom.jpg"
+                alt="Students writing an exam in a classroom setting"
+              />
+              <img
+                src="image/online-exam-computers.jpg"
+                alt="Students using computers in preparation for online examinations"
+              />
+            </div>
 
-                    <div class="story-content">
-                        <div class="story-meta">
-                            <span class="story-tag">Tourism</span>
-                            <span class="story-read">Lakeside Project</span>
-                        </div>
+            <div class="story-content">
+              <div class="story-meta">
+                <span class="story-tag">Education</span>
+                <span class="story-read">Online Exams</span>
+              </div>
 
-                        <h3>Hawassa City Plans Lakeside Development Project to Improve Tourism and Public Spaces</h3>
-                        <p class="story-lead">
-                            City officials say the new lakeside project is designed to protect the
-                            environment while creating more welcoming spaces for residents and visitors.
-                        </p>
+              <h3>
+                Sidama Region Prepares for a Larger Shift to Online National
+                Exams
+              </h3>
+              <p class="story-lead">
+                Education officials say thousands of Grade 12 students are
+                expected to sit this year's university entrance exam online, but
+                equipment, electricity, and network reliability remain key
+                concerns.
+              </p>
 
-                        <div class="story-copy">
-                            <p>
-                                The Hawassa City Administration has launched a new development project
-                                around Lake Hawassa aimed at improving tourism, protecting the
-                                environment, and creating better public spaces for residents.
-                            </p>
-                            <p>
-                                According to Hawassa City Construction Department Design and Contract
-                                Administration Team Leader Mr. Elias Welde, the work forms part of the
-                                city's broader urban development plan and will focus on improving the
-                                lakeside area while maintaining environmental sustainability.
-                            </p>
-                            <p>
-                                Officials say the project will help protect the lake environment while
-                                also creating modern recreational spaces for both residents and
-                                visitors.
-                            </p>
-                            <p>
-                                Plans include recreational areas, walking paths, and other facilities
-                                meant to make the lakeside more attractive and accessible to the
-                                public. City leaders also expect the project to support the local
-                                economy by drawing more tourists to the area.
-                            </p>
-                            <p>
-                                Residents have welcomed the initiative. One resident, Mr. Yayenehtesfaye
-                                Mengistu, said the development could make the lakeside more attractive
-                                and provide better places for families and visitors to spend time.
-                            </p>
-                            <p>
-                                He also urged the city to keep recreational services affordable so that
-                                the wider community can benefit, not only tourists or higher-income
-                                residents.
-                            </p>
-                            <p>
-                                Officials say the development will be implemented in phases and is
-                                expected to contribute to the long-term growth of Hawassa City.
-                            </p>
-                        </div>
-                    </div>
-                </article>
+              <div class="story-copy">
+                <p>
+                  Sidama Region is preparing to administer a large share of the
+                  2018 E.C. university entrance examination online, according to
+                  Examination Team Leader Mr. Tessema Tesfaye.
+                </p>
+                <p>
+                  He said officials are currently checking the number of
+                  available computers, internet capacity, and generator power in
+                  higher education institutions and colleges across the region.
+                </p>
+                <p>
+                  Out of the 25,123 students expected to take the exam this
+                  year, about 9,000 are projected to sit online, while the
+                  remaining candidates will take the exam at their assigned
+                  university locations.
+                </p>
+                <p>
+                  Students scheduled for online testing are expected to use
+                  Hawassa University campuses including Bensa Daye, Yirgalem,
+                  the Agriculture Campus, Techo Campus, and Main Campus, as well
+                  as Rift Valley College.
+                </p>
+                <p>
+                  Officials say the biggest challenges are shortages of
+                  computers and recurring interruptions in electricity and
+                  network service. To reduce those risks, schools and
+                  authorities are working on generator backup plans and
+                  coordinating with Ethio Telecom to improve connectivity.
+                </p>
+                <p>
+                  Special support is also being planned for students with
+                  disabilities and others who need additional assistance during
+                  registration and on exam days. Medical centers and ambulances
+                  are being prepared for students who may need urgent care.
+                </p>
+                <p>
+                  School leaders say preparation is already under way through
+                  tutorials, early syllabus completion, revision sessions, and
+                  online model exams. Students interviewed for the story said
+                  they are using the extra support to strengthen both their
+                  subject knowledge and computer confidence.
+                </p>
+                <p>
+                  Educators add that the online system is also being seen as an
+                  important step in reducing cheating and building confidence
+                  that exam results better reflect student ability.
+                </p>
+              </div>
+            </div>
+          </article>
 
-                <article class="story-card story-card--wide story-card--text" id="sports-story">
-                    <div class="story-content">
-                        <div class="story-meta">
-                            <span class="story-tag">Sports</span>
-                            <span class="story-read">Youth Development</span>
-                        </div>
+          <article class="story-card story-card--wide" id="tariff-story">
+            <div class="story-media story-media--single">
+              <img
+                src="image/transport-tariff.jpg"
+                alt="Blue public transport vehicles lined up along a road in Hawassa"
+              />
+            </div>
 
-                        <h3>From Dust to Glory: Hawassa's Sports Infrastructure Inspires a New Generation</h3>
-                        <p class="story-lead">
-                            Around Korem Mada, young athletes keep training through dust and limited
-                            space, hoping local investment can match their ambition.
-                        </p>
+            <div class="story-content">
+              <div class="story-meta">
+                <span class="story-tag">Transport</span>
+                <span class="story-read">Tariff Watch</span>
+              </div>
 
-                        <div class="story-copy">
-                            <p>
-                                As the sun sets over Korem Mada, clouds of dust rise from the historic
-                                field where hundreds of young athletes gather daily, chasing dreams of
-                                becoming professional footballers.
-                            </p>
-                            <p>
-                                The ground is known for producing notable Ethiopian players such as
-                                Adane Girma and Shimelis Bekele, and it remains a symbol of hope for
-                                many of Hawassa's children.
-                            </p>
-                            <p>
-                                For families across the city, football is more than a pastime. It is a
-                                pathway to represent the country, build a better future, and take part
-                                in a wider culture of health and community development.
-                            </p>
-                            <p>
-                                Hawassa City Administration Sports Commission officials say the city has
-                                between 15 and 20 sports fields. Many fall below standard, but they are
-                                still heavily used for exercise and training.
-                            </p>
-                            <p>
-                                Commissioner Damarso Dona said new facilities and cycling paths
-                                introduced through urban development projects have encouraged more
-                                people to take part in physical activity. The city has also launched
-                                mass sports programs such as street races and organized cycling events.
-                            </p>
-                            <p>
-                                Challenges remain. Coach Sintayehu Meshesha, who runs a youth football
-                                project, said limited space forces his team to train on only half of
-                                the Korem Mada field three times a week.
-                            </p>
-                            <p>
-                                Parents share similar concerns and want stronger support for youth
-                                development in neighborhoods across the city. Officials acknowledge the
-                                poor condition of many fields but say new standards and a sports policy
-                                are expected to improve the sector in the coming years.
-                            </p>
-                        </div>
-                    </div>
-                </article>
+              <h3>
+                New Transport Tariffs Stir Frustration Among Drivers and
+                Passengers in Hawassa
+              </h3>
+              <p class="story-lead">
+                Residents, drivers, and small business owners say the latest
+                fare increase is making movement around the city even harder to
+                afford.
+              </p>
 
-                <article class="story-card story-card--wide" id="phone-theft-story">
-                    <div class="story-media story-media--single">
-                        <img src="image/phone-theft.jpg" alt="Illustration of a phone theft on a city street at night">
-                    </div>
+              <div class="story-copy">
+                <p>
+                  The recent increase in transportation tariffs around Hawassa
+                  is drawing frustration from drivers, students, and shopkeepers
+                  who say it adds new pressure to an already difficult economy.
+                </p>
+                <p>
+                  Residents say the higher fares are compounding the effects of
+                  fuel shortages and rising spare-part prices, making it more
+                  expensive to travel to work, school, and market centers.
+                </p>
+                <p>
+                  Driver Arega, who works routes between Hawassa and cities such
+                  as Addis Ababa, Butajira, Hosanna, and Adama, said the tariff
+                  has increased by 10 birr on routes while fuel remains the
+                  biggest pressure on operators. He said he has had to wait in
+                  line for days just to refill.
+                </p>
+                <p>
+                  Other drivers say the increase still does not fully match
+                  their real operating costs, while passengers complain that
+                  even small fare changes are becoming difficult to absorb as
+                  the price of food and other essentials continues to rise.
+                </p>
+                <p>
+                  Dawit, a teacher who is also pursuing a master's degree at
+                  Hawassa University, said the tariff changes feel disconnected
+                  from what ordinary people can actually afford. Shopkeeper Ali
+                  voiced a similar concern, saying higher transport costs
+                  eventually feed into the prices of food, clothing, and other
+                  goods.
+                </p>
+                <p>
+                  Public transportation specialist Ato Degeife said the tariff
+                  revision was mandated at the federal level and was based on
+                  research that considered fuel prices, spare-part costs,
+                  vehicle type, and road conditions. He said the city is also
+                  responsible for enforcing the legal rate and penalizing
+                  drivers who demand more than the official tariff.
+                </p>
+                <p>
+                  Officials say the bureau is trying to communicate the new
+                  rates through social media and local broadcasting, but public
+                  frustration remains high as both operators and passengers
+                  struggle to cope with the wider rise in living costs.
+                </p>
+              </div>
+            </div>
+          </article>
 
-                    <div class="story-content">
-                        <div class="story-meta">
-                            <span class="story-tag">Public Safety</span>
-                            <span class="story-read">Crime Watch</span>
-                        </div>
+          <article class="story-card story-card--feature" id="lakeside-story">
+            <div class="story-media story-media--split">
+              <img
+                src="image/lakeside-render.jpg"
+                alt="Concept rendering of the planned Hawassa lakeside development"
+              />
+              <img
+                src="image/lakeside-plan.jpg"
+                alt="Design plan for the Hawassa lakeside development project"
+              />
+            </div>
 
-                        <h3>Mobile Phone Theft on the Rise Across Hawassa as Thieves Shift Tactics</h3>
-                        <p class="story-lead">
-                            Police and residents say phone theft is becoming more organized, with
-                            cases reported in dormitories, on the street, and from passing motorbikes.
-                        </p>
+            <div class="story-content">
+              <div class="story-meta">
+                <span class="story-tag">Tourism</span>
+                <span class="story-read">Lakeside Project</span>
+              </div>
 
-                        <div class="story-copy">
-                            <p>
-                                Phone theft is becoming a growing concern in Hawassa City as thieves
-                                use different methods such as pickpocketing, breaking into university
-                                dormitories, and snatching phones from pedestrians using motorbikes.
-                            </p>
-                            <p>
-                                According to Hawassa City Police Criminal Investigation Department
-                                Vice Inspector Yrdachew Angiso, the city records two to three phone
-                                theft cases every week.
-                            </p>
-                            <p>
-                                He said many suspects are young people from rural areas or the streets
-                                who are influenced by peer pressure or drawn to crime by the hope of
-                                quick money. Some operate in groups and frequently change tactics,
-                                making them harder to catch.
-                            </p>
-                            <p>
-                                Victims say many thefts happen in the evening or late at night when
-                                people are less alert. Phones are often taken while owners are
-                                sleeping, walking alone, or using public transportation.
-                            </p>
-                            <p>
-                                University student Kena Deresa said her phone was stolen while she was
-                                asleep in her dormitory. Another student, Etsubdink Abraham, said men
-                                on a motorbike snatched her friend's phone while the student was
-                                returning to campus from work.
-                            </p>
-                            <p>
-                                Hawassa resident Ethiopia Kebede said her phone disappeared while she
-                                was visiting a friend near Piassa, showing that theft is also common
-                                in busy public areas.
-                            </p>
-                            <p>
-                                Police say they are working through the Community Policing Program and
-                                using both uniformed and plainclothes officers across the city.
-                                Residents are being advised to stay alert, especially in crowded or
-                                isolated areas, and to avoid openly displaying phones in public.
-                            </p>
-                        </div>
-                    </div>
-                </article>
-            </section>
-        </main>
+              <h3>
+                Hawassa City Plans Lakeside Development Project to Improve
+                Tourism and Public Spaces
+              </h3>
+              <p class="story-lead">
+                City officials say the new lakeside project is designed to
+                protect the environment while creating more welcoming spaces for
+                residents and visitors.
+              </p>
 
-        <footer class="site-footer">
-            <p>My News now highlights local reporting on urban development, youth opportunity, and public safety in Hawassa.</p>
-        </footer>
+              <div class="story-copy">
+                <p>
+                  The Hawassa City Administration has launched a new development
+                  project around Lake Hawassa aimed at improving tourism,
+                  protecting the environment, and creating better public spaces
+                  for residents.
+                </p>
+                <p>
+                  According to Hawassa City Construction Department Design and
+                  Contract Administration Team Leader Mr. Elias Welde, the work
+                  forms part of the city's broader urban development plan and
+                  will focus on improving the lakeside area while maintaining
+                  environmental sustainability.
+                </p>
+                <p>
+                  Officials say the project will help protect the lake
+                  environment while also creating modern recreational spaces for
+                  both residents and visitors.
+                </p>
+                <p>
+                  Plans include recreational areas, walking paths, and other
+                  facilities meant to make the lakeside more attractive and
+                  accessible to the public. City leaders also expect the project
+                  to support the local economy by drawing more tourists to the
+                  area.
+                </p>
+                <p>
+                  Residents have welcomed the initiative. One resident, Mr.
+                  Yayenehtesfaye Mengistu, said the development could make the
+                  lakeside more attractive and provide better places for
+                  families and visitors to spend time.
+                </p>
+                <p>
+                  He also urged the city to keep recreational services
+                  affordable so that the wider community can benefit, not only
+                  tourists or higher-income residents.
+                </p>
+                <p>
+                  Officials say the development will be implemented in phases
+                  and is expected to contribute to the long-term growth of
+                  Hawassa City.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="story-card story-card--wide story-card--text"
+            id="sports-story"
+          >
+            <div class="story-content">
+              <div class="story-meta">
+                <span class="story-tag">Sports</span>
+                <span class="story-read">Youth Development</span>
+              </div>
+
+              <h3>
+                From Dust to Glory: Hawassa's Sports Infrastructure Inspires a
+                New Generation
+              </h3>
+              <p class="story-lead">
+                Around Korem Mada, young athletes keep training through dust and
+                limited space, hoping local investment can match their ambition.
+              </p>
+
+              <div class="story-copy">
+                <p>
+                  As the sun sets over Korem Mada, clouds of dust rise from the
+                  historic field where hundreds of young athletes gather daily,
+                  chasing dreams of becoming professional footballers.
+                </p>
+                <p>
+                  The ground is known for producing notable Ethiopian players
+                  such as Adane Girma and Shimelis Bekele, and it remains a
+                  symbol of hope for many of Hawassa's children.
+                </p>
+                <p>
+                  For families across the city, football is more than a pastime.
+                  It is a pathway to represent the country, build a better
+                  future, and take part in a wider culture of health and
+                  community development.
+                </p>
+                <p>
+                  Hawassa City Administration Sports Commission officials say
+                  the city has between 15 and 20 sports fields. Many fall below
+                  standard, but they are still heavily used for exercise and
+                  training.
+                </p>
+                <p>
+                  Commissioner Damarso Dona said new facilities and cycling
+                  paths introduced through urban development projects have
+                  encouraged more people to take part in physical activity. The
+                  city has also launched mass sports programs such as street
+                  races and organized cycling events.
+                </p>
+                <p>
+                  Challenges remain. Coach Sintayehu Meshesha, who runs a youth
+                  football project, said limited space forces his team to train
+                  on only half of the Korem Mada field three times a week.
+                </p>
+                <p>
+                  Parents share similar concerns and want stronger support for
+                  youth development in neighborhoods across the city. Officials
+                  acknowledge the poor condition of many fields but say new
+                  standards and a sports policy are expected to improve the
+                  sector in the coming years.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="story-card story-card--wide" id="phone-theft-story">
+            <div class="story-media story-media--single">
+              <img
+                src="image/phone-theft.jpg"
+                alt="Illustration of a phone theft on a city street at night"
+              />
+            </div>
+
+            <div class="story-content">
+              <div class="story-meta">
+                <span class="story-tag">Public Safety</span>
+                <span class="story-read">Crime Watch</span>
+              </div>
+
+              <h3>
+                Mobile Phone Theft on the Rise Across Hawassa as Thieves Shift
+                Tactics
+              </h3>
+              <p class="story-lead">
+                Police and residents say phone theft is becoming more organized,
+                with cases reported in dormitories, on the street, and from
+                passing motorbikes.
+              </p>
+
+              <div class="story-copy">
+                <p>
+                  Phone theft is becoming a growing concern in Hawassa City as
+                  thieves use different methods such as pickpocketing, breaking
+                  into university dormitories, and snatching phones from
+                  pedestrians using motorbikes.
+                </p>
+                <p>
+                  According to Hawassa City Police Criminal Investigation
+                  Department Vice Inspector Yrdachew Angiso, the city records
+                  two to three phone theft cases every week.
+                </p>
+                <p>
+                  He said many suspects are young people from rural areas or the
+                  streets who are influenced by peer pressure or drawn to crime
+                  by the hope of quick money. Some operate in groups and
+                  frequently change tactics, making them harder to catch.
+                </p>
+                <p>
+                  Victims say many thefts happen in the evening or late at night
+                  when people are less alert. Phones are often taken while
+                  owners are sleeping, walking alone, or using public
+                  transportation.
+                </p>
+                <p>
+                  University student Kena Deresa said her phone was stolen while
+                  she was asleep in her dormitory. Another student, Etsubdink
+                  Abraham, said men on a motorbike snatched her friend's phone
+                  while the student was returning to campus from work.
+                </p>
+                <p>
+                  Hawassa resident Ethiopia Kebede said her phone disappeared
+                  while she was visiting a friend near Piassa, showing that
+                  theft is also common in busy public areas.
+                </p>
+                <p>
+                  Police say they are working through the Community Policing
+                  Program and using both uniformed and plainclothes officers
+                  across the city. Residents are being advised to stay alert,
+                  especially in crowded or isolated areas, and to avoid openly
+                  displaying phones in public.
+                </p>
+              </div>
+            </div>
+          </article>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>
+          My News now highlights local reporting on cost of living, education,
+          transport, urban development, youth opportunity, and public safety in
+          Hawassa and Sidama.
+        </p>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
