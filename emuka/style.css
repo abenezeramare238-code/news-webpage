@@ -242,7 +242,9 @@ main [id] {
     background: rgba(255, 255, 255, 0.65);
     color: var(--ink);
 }
-
+ .link{
+        color: rgb(10, 10, 199);
+    }
 .brief-panel {
     position: relative;
     overflow: hidden;
@@ -380,21 +382,21 @@ main [id] {
 }
 
 .story-media img {
-    height: 220px;
+    height: 420px;
     object-fit: cover;
     border-radius: var(--radius-md);
 }
 
 .story-card--feature .story-media img {
-    height: 300px;
+    height: 700px;
 }
 
 .story-card--wide .story-media img {
-    height: 250px;
+    height: 550px;
 }
 
 .story-card--text .story-content {
-    max-width: 900px;
+    max-width: 1200px;
 }
 
 .story-card--feature .story-content,
@@ -534,7 +536,9 @@ main [id] {
         min-height: 44px;
         padding: 12px;
     }
-
+    section article div p a{
+        color: blue;
+    }
     .hero {
         gap: 18px;
     }
